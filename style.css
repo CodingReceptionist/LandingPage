@@ -1,102 +1,115 @@
+body {
+margin: 0;
+}
+
 .first-part {
     background-color: #1F2937;
-    
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Roboto', arial;
   }
   
-  .logo{
+.logo{
     width: 100px;
     height: 100px;
   }
   
-  .header {
+.header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
   
-  .left, .right {
+.left, .right {
     display: flex;
     
   }
   
-  .left {
+.left {
     margin-left: 100px;
   }
   
-  .right {
+.right {
     display: flex;
     gap: 16px;
     align-items: center;
     margin-right: 100px;
   }
   
-  .section-1 {
+.section-1 {
     margin: 60px;
     display: flex;
     margin: 100px;
     margin-left: 200px;
     justify-content: space-evenly;
-    gap: 16px;
+    gap: 100px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'Roboto', arial;
   }
   
-  .section-1-img {
+.section-1-img {
     width: 600px;
     height: 400px;
   }
   
-  .section-1-text {
+.section-1-text {
     display: flex;
     flex-direction: column;
     inline-size: 300px;
+    justify-content: center;
+    flex-grow: 2;
   }
   
-  button {
+button {
   width: 100px;
   background-color: #3882F6;
   color: white;
   border-radius: 5px;
   }
   
-  .beer {
+.beer {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
   }
   
-  .description {
+.description {
     font-size: 18px;
     color: #E5E7EB;
   }
   
-  a {
+a {
     color: #E5E7EB;
     text-decoration: none;
   }
   
-  .second-half {
+.second-half {
     display: flex;
     justify-content: center;
     gap: 100px;
   }
   
-  .title {
+.title {
     font-size: 36px;
     margin-bottom: 32px;
     text-align: center;
+    padding-top: 25px;
   }
   
-  .beer-picture {
+.beer-picture {
     width: 200px;
     height: 200px;
     border-radius: 10px;
   }
   
-  .info {
+.info {
     max-width: 200px;
     text-align: center;
   }
   
-  .second-part {
+.second-part {
     background-color: white;
   }
   
